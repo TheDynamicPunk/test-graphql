@@ -1,3 +1,2 @@
-# lco-graphql
-A standard babel setup
-Starter project setup for upcoming crash courses
+# test-graphql
+A test graphql server for learning purposes!
