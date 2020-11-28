@@ -44,6 +44,10 @@ const schema = buildSchema(`
         lastName: String
         experience: Int
     }
+
+    type Mutation {
+        createCourse(input: CourseInput): Course
+    }
 `);
 
 export default schema;
