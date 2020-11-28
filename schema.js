@@ -24,6 +24,10 @@ const schema = buildSchema(`
         OTHER
     }
 
+    type Query {
+        getCourse(id: ID): Course
+    }
+
     input CourseInput {
         id: ID
         courseName: String
